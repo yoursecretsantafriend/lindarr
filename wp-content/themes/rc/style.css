@@ -1,0 +1,218 @@
+@import url('/wp-content/themes/rc/css/bootstrap.css'); 
+@import url('/wp-content/themes/rc/css/global.css?v=1.323'); 
+@import url('/wp-content/themes/rc/css/global-responsive.css?v=1.323'); 
+@import url('/wp-content/themes/rc/css/custom.css?v=1.273'); 
+@import url('/wp-content/themes/rc/css/simplelightbox.css'); 
+.issue_banner_slider .owl-dots {
+    display:none !important;
+}
+
+.banner_slider .homebannercontent .bannerContent p {
+    font-style: italic;
+}
+.onesection-box{width:100%;position:relative;height:375px;display:inline-block;margin:10px 0 20px;}
+.blurbgbox{background-repeat:no-repeat;background-size:cover;background-position:center center;position:absolute;left:0;top:0;right:0;bottom:0;z-index:1;
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+}
+.post p{line-height: 1.5em;}
+.inp-detail-in p {font-size: 14px;line-height: 24px;margin: 0;}
+.noneblurpic{position:absolute;left:0;top:0;right:0;bottom:0;z-index:2;text-align:center;line-height:371px;overflow:hidden;}
+.noneblurpic > img {max-height: 375px;vertical-align:middle;}
+
+.blog-h-listing{background: #fff; border-radius: 4px;}
+.blog-h-listing ul li{padding: 30px;border-bottom: 1px solid #f7f7f5;}
+.blog-h-listing ul li .blog-list-single .news_text{padding:0; height: auto!important; float:none; display: block}
+.blog-h-listing ul li .blog-list-single .news_text h4{margin:0 0 10px; font-size: 20px;color: #333;}
+.blog-h-listing ul li .blog-list-single .news_text p{height: auto!important; font-size: 16px; line-height: 20px; font-weight: 400}
+.blog-h-listing ul li .blog-list-single .news_text .read-more-link{position: static; width:auto; height: auto; display: block; margin:0 0 10px; font-size: 15px;}
+.blog-h-listing ul li .blog-list-single .social_conect_news{float: none; z-index: 0}
+
+.inp-detail-in table a:link {
+   color: #666;
+   font-weight: 700;
+   text-decoration: none
+}
+
+.inp-detail-in table a:visited {
+   color: #999;
+   font-weight: 700;
+   text-decoration: none
+}
+
+.inp-detail-in table a:active,
+.inp-detail-in table a:hover {
+   color: #0050a0;
+   text-decoration: underline
+}
+
+.inp-detail-in table {
+   font-family: Arial,Helvetica,sans-serif;
+   color: #666;
+   font-size: 12px;
+   border: 1px solid #000;
+   margin: 20px 0;
+}
+
+.inp-detail-in table th {
+   padding: 21px 25px 22px;
+   border-bottom: 1px solid #e0e0e0;
+}
+
+.inp-detail-in table th:first-child {
+   text-align: left;
+   padding-left: 20px
+}
+
+.inp-detail-in table tr {
+   text-align: center;
+   padding-left: 20px
+}
+
+.inp-detail-in table td:first-child {
+   text-align: left;
+   padding-left: 20px;
+   border-left: 0
+}
+
+.inp-detail-in table td {
+   padding: 18px;
+   border: 1px solid #000;
+}
+
+.inp-detail-in table tr:last-child td {
+   border-bottom: 0
+}
+
+/****datepicker start****/
+body .ui-widget-header {border: medium none;border-radius: 0;padding: 5px 0;}
+body .ui-datepicker,.ui-timepicker-table.ui-widget-content {background-color: #37b9fb;border: medium none;box-shadow: 0 0 5px -2px #000000;padding:0;}
+body .ui-datepicker thead {border-bottom: 1px solid #404040;background-color: #37b9fb;color: #fff;font-size: 11px;}
+body .ui-datepicker tbody{background-color: #37b9fb;}
+body .ui-datepicker-calendar td .ui-state-default,body .ui-datepicker-calendar td.ui-state-hover{border: medium none;background-color:#37b9fb;padding:5px!important;border-radius:0;text-align:center;}
+body .ui-datepicker-calendar td .ui-state-default.ui-state-active,body .ui-datepicker-calendar td .ui-state-default.ui-state-highlight{color: #ffffff;background-color: #2792c9;outline: 1px solid #2792c9 !important;outline-offset: 1px;}
+body .ui-datepicker .ui-datepicker-title {color: #000000;font-family: opensansregular;font-size: 14px;font-weight: normal;}
+body .ui-datepicker-header{background-color: #f5f5f3;padding: 10px 0 ;}
+body .dateselect-box{width:100%;float:left;}
+body .dateselect-box .datefield-box{float:left;width:50%;position:relative;}
+body .datefield-box::before {content: attr(data);position: absolute;right: 0;color: #A0ACB2;font-size: 10px;font-family: opensansbold;top: 8px;}
+body .ui-datepicker{z-index:999999!important;}
+body .ui-widget-header {border: none;background: #37b9fb;color: #fff;border-radius: 5px;padding: 10px 0 8px !important;}
+body .ui-timepicker-table .ui-state-default,body .ui-timepicker-table .ui-widget-content .ui-state-default,.ui-timepicker-table .ui-widget-header .ui-state-default,.ui-timepicker-table .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {border: none;font-weight: normal;display: block;width: 30px;height: 30px;line-height: 30px;background:#ffffff;font-size: 13px;}
+body .ui-state-active,body .ui-widget-content .ui-state-active,body .ui-widget-header .ui-state-active,body a.ui-button:active,body .ui-button:active,body .ui-button.ui-state-active:hover{color: #ffffff;background-color: #F18C3E;}
+body .ui-timepicker-table .periods {padding: 5px;background: #f6f6f6;font-family: opensansregular;font-weight: normal;color: #000;font-size: 14px;}
+body .ui-timepicker-minutes{border-left:1px solid #e9e9e9;}
+body .ui-timepicker-table .ui-widget-header {border: medium none;border-radius: 0;padding: 5px 0;text-align: center;font-family: opensansregular;font-weight: normal;color: #000;font-size: 14px;}
+body .ui-timepicker-table .ui-state-hover {padding: 0 !important;}
+body .ui-state-default,body .ui-widget-content .ui-state-default,body .ui-widget-header .ui-state-default{background:#37b9fb;color:#ffffff;}
+body .ui-datepicker-year {color: #ffffff;}
+body .ui-datepicker table {border-spacing: 2px !important;background-color: #37b9fb;border-collapse: separate;border-top: 1px solid #97d9fb;}
+body .ui-datepicker .ui-datepicker-prev,body .ui-datepicker .ui-datepicker-next {top: 9px;border:1px solid #97d9fb;border-radius:20px;cursor:pointer;}
+body .ui-datepicker .ui-datepicker-next{right:10px;}
+body .ui-datepicker .ui-datepicker-prev{left:10px;}
+body .ui-state-hover,
+body .ui-widget-content .ui-state-hover,
+body .ui-widget-header .ui-state-hover,
+body .ui-state-focus,
+body .ui-widget-content .ui-state-focus,
+body .ui-widget-header .ui-state-focus {border: 1px solid #ffffff;background:url("./images/sprite.png") 50% 50% repeat-x;font-weight: normal;color: #1b6a93;}
+body .ui-widget-header .ui-icon {background-image: url("./images/sprite.png");}
+body .ui-icon-circle-triangle-w {background-position: -492px -484px;}
+body .ui-icon-circle-triangle-e {background-position: -453px -484px;}
+/****datepicker end****/
+
+#commentsubmit.btn.btn-primary:hover{color:#fff;}
+.comments-area{border: 1px solid #f1f1f1; border-bottom: 0; background: #fafdff; margin-bottom: 20px; padding: 0;}
+.comment-body{position:relative;}
+/*.comments-area .children{margin-left:1.5em;list-style:none;}*/
+.comment-area .media-heading{font-weight: 700;font-size: 16px;color:#222;text-transform: capitalize;margin-top: 4px;}
+.comment-area .media-heading cite{font-style:normal;}
+.comment-area .media-heading a{color:#333;}
+.comment-meta{display:inline-block;}
+.media-body-wrap .comment-content p,.comment-awaiting-moderation{margin-bottom:10px;}
+.media-heading{margin-bottom:0px;}
+.comment-meta{margin-bottom: 10px}
+.comment-meta a{color:#888;font-size:12px;}
+.media>.pull-left.author-comment{margin-right:10px;}
+.media>.pull-left.author-comment img{border-radius:100%;}
+.comment-body:after{content:"";width:100%;height:1px;bottom:0;left:0;position:absolute;background:0;}
+.comment-reply-link{background:none;color:#999;border:none;position:absolute;text-transform:uppercase;letter-spacing:1px;font-size:12px;padding:0;}
+.comment-form label{display: block;font-weight: 400;margin: 20px 0 0;}
+input,textarea{border:1px solid #e5e5e5;padding:12px 15px;}
+input:focus,textarea:focus{box-shadow:none;outline-offset:0;outline:0;}
+.comment-form .comment-form-author input,.comment-form .comment-form-email input,.comment-form .comment-form-url input{width:50%;background:rgba(255,255,255,0.7);}
+.comment-form textarea{width:100%;background:#fff;}
+.comment-form .form-submit{margin-top:40px;}
+.comments-title{font-size:16px;background: #dfefff;clear: both;padding: 15px 20px;margin: 0 0 20px;}
+.comment-respond .alert-info,.comment .comment-body:last-child:after{display:none;}
+.comment-respond h3#reply-title {font-size: 20px;font-weight: 300;}
+.comment-respond h3#reply-title small{display: block; font-size: 13px;    margin: 10px 0;}
+.comments-area .comment-list .comment{ margin-bottom: 0; border-bottom: 1px solid #f1f1f1; padding: 20px 20px 10px}
+.comment-respond p.logged-in-as {font-size: 12px; margin:2px 0 15px}
+.comment .comment-reply{height: 20px}
+p.comment-notes{font-size: 13px; color:#999}
+p.comment-notes > span{display: block; color:#333}
+p.comment-notes .required{display: inline-block; color:#999}
+.comment-respond h3#reply-title a {font-size: 14px;}
+.prevArrow{width:30px; height: 30px; display: inline-block; vertical-align: middle; background: url('images/back-post.jpg') no-repeat center center;font-size:0;}
+.nextArrow{width:30px; height: 30px; display: inline-block; vertical-align: middle; background: url('images/next-post.jpg') no-repeat center center; font-size:0;}
+
+.custom_left_part p {
+   margin-bottom: 12px;
+   text-align: justify;
+}
+
+.alignright {
+   float: right;
+   margin-left: 10px;
+}
+.alignleft {
+   float: left;
+   margin-right: 10px;
+}
+.aligncenter {
+   float: none;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+
+
+
+
+
+
+blink {
+	 font-size: 14px;
+    color: red;
+  -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 2s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
